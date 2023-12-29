@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    
+   
+
+</head>
+<body>
+
+    <img class="logo" src="./logo.gif" alt="logo">
+
+    <main>
+            <label>
+                    Converter <b>de</b>
+                        <select class="currency1">
+                                <option value="real">R$ Real Brasileiro</option>
+                                <option value="dolar">US$ Dolár Americano</option>
+                                <option value="euro">€ Euro</option>
+                                <option value="libra">£ Libra</option>
+                                <option value="bitcoin">₿ Bitcoin</option>
+                                
+                        </select>
+            </label>
+
+            <label>
+                    Converter <b>para</b>
+                        <select class="currency2">
+                                 <option value="real">R$ Real Brasileiro</option>
+                                <option value="dolar">US$ Dolár Americano</option>
+                                <option value="euro">€ Euro</option>
+                                <option value="libra">£ Libra</option>
+                                <option value="bitcoin">₿ Bitcoin</option>
+                        </select>
+            </label>
+            <label>
+                Valor
+                <input class="input1"  placeholder="R$ 10.000,00">
+            </label>
+
+            <button class="button1"  id="b1">Converter</button>
+
+            <section>
+                    <div  class="box">
+                        <img class="foto1" src="./brasil 2.png" alt="logorealbrasil">
+                        <p class="moeda" id="name1">Real</p>
+                        <p id="toconvert" class="valormoeda">R$ 0,00</p>
+
+                    </div>
+
+                    <img class="seta1" src="./Vector.png" alt="seta1">
+
+                    <div class="box">
+                        <img class="foto2"  src="./estados-unidos (1) 1.png" alt="usalogo">
+                        <p class="moeda" id="name2">Dolár</p>
+                        <p id="converted" class="valormoeda">US$ 0,00</p>
+                    </div>
+            </section>
+
+    </main>
+    <script src="./script.js">  </script>
+</body>
+</html>
