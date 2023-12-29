@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    background-color: black;
+}
+
+body {
+    color: white;
+}
+
+section {
+    width: 70%; /* Use porcentagem para largura responsiva */
+    max-width: 583px; /* Defina uma largura máxima para evitar que fique muito grande */
+    margin: 150px auto 0 auto; /* Centralize verticalmente e ajuste a margem horizontal */
+}
+
+#dev {
+    height: 400px;
+}
+
+#labelid {
+    margin-left: 10%; /* Use porcentagem para margem responsiva */
+}
+
+#input1 {
+    background-color: #FFFFFF40;
+    border-radius: 14px;
+    width: 70%; /* Use porcentagem para largura responsiva */
+    max-width: 342px; /* Defina uma largura máxima para evitar que fique muito grande */
+    height: 68px;
+    margin-left: 30%;    
+    font-size: 2vw; /* Use vw (viewport width) para tamanho de fonte responsivo */
+    color: white;
+}
+
+
+#input2 {
+    background-color: #FFFFFF40;
+    border-radius: 14px;
+    width: 70%; /* Use porcentagem para largura responsiva */
+    max-width: 342px; /* Defina uma largura máxima para evitar que fique muito grande */
+    height: 68px;
+    margin-left: 50px;
+    margin-top: 20px; /* Ajuste a margem superior */
+    font-size: 2vw; /* Use vw (viewport width) para tamanho de fonte responsivo */
+    color: white;
+}
+
+#texto1 {
+    width: 50%; /* Use porcentagem para largura responsiva */
+    max-width: 299px; /* Defina uma largura máxima para evitar que fique muito grande */
+    height: 45px;
+    font-weight: 400;
+    margin-left: 45%; /* Use porcentagem para margem responsiva */
+    margin-top: 80px;
+    color: white;
+}
+
+button {
+    background-color: rgb(123, 150, 4);
+    border-radius: 10px;
+    width: 50%; /* Use porcentagem para largura responsiva */
+    max-width: 260px; /* Defina uma largura máxima para evitar que fique muito grande */
+    height: 60px;
+    margin-left: 43%; /* Use porcentagem para margem responsiva */
+    margin-top: 20px;
+    font-size: 2vw; /* Use vw (viewport width) para tamanho de fonte responsivo */
+    color: white;
+}
