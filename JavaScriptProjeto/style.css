@@ -4,14 +4,16 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     outline: none;
-
+    
     
 }
 
 
 body {
-        background-color: #8a51fc;
-    }
+    background-image: url("https://ciphertrace.com/wp-content/uploads/2022/10/CipherTrace-Bitcoin-Recovery-From-Scammer-Blog-Feature-scaled.jpeg"); 
+    background-size: cover;
+    background-position: left;
+}
 
 .logo{
         width: 300px;
@@ -23,10 +25,9 @@ body {
 
 main{
  
-    width: 375px;
-    background: #F4F4F4;
+    width: 375px;   
     border-radius: 20px;
-    margin: 0 auto 40px;
+    margin: 100px 0px 0px 962px;
     padding: 44px 24px 23px;
 }
 
@@ -43,16 +44,16 @@ section {
 }
 
 label{
-        color: #777777;
+        color: #dd7a09;
         font-weight: 400;
-        font-size:  14px;
+        font-size:  24px;
 
 }
 
 
 select, 
 input{
-        background: #ffffff;
+        background: #204b5c;
         border: 1px solid #BBBBBB;
         border-radius: 4px;
         height: 48px;
@@ -61,12 +62,12 @@ input{
         padding: 5px;
         font-weight: 700px;
         font-size: 16px;
-        color: #555556;
+        color: #ffffff;
 
 }
 
 button { 
-        background: #772FD3;
+        background: #dd7a09;
         border-radius: 5px;
         width: 100%;
         border: none;
@@ -89,7 +90,7 @@ button:active {
 
 section {
 
-    border: 1px solid #772FD3;
+    border: 3px solid #dd7a09;
     border-radius: 20px;
     margin-top: 36px;
     margin-left: auto;
@@ -112,12 +113,12 @@ gap: 4px;
 }
 
 .moeda { 
-    color: #777777;
+    color: #dd7a09;
     font-size: 14px;
 }
 
 .valormoeda {
-    color: #555555;
+    color: #dd7a09;
     font-weight: 700;
     font-size: 20px ;    
 }
