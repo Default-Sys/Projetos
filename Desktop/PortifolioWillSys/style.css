@@ -1,0 +1,211 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 20px 0;
+    z-index: 1;
+    color: #B0C4DE;
+}
+
+article {
+    color: #B0C4DE;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Garantindo que o conteúdo fique acima do vídeo de fundo */
+    font-size: 24px;
+   
+}
+
+#minhaborda {
+    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo preta com 50% de opacidade */
+    padding: 2px; /* Adicione um espaçamento interno para evitar que o texto toque nas bordas */
+    border-radius: 10px;
+}
+
+section {
+    position: relative;
+    z-index: 1; /* Garantindo que os projetos fiquem acima do vídeo de fundo */
+    display: flex;
+    margin-left: 90px;
+    color: #B0C4DE;
+    transition: left 1s linear;
+       
+   
+}
+
+.projeto   {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    transform: scale(1);  
+    transition: transform .5s ease-in-out;
+    
+}
+
+.projeto :hover img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Colocando o vídeo atrás do conteúdo */
+}
+.projeto :hover {
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Adicionando um fundo semitransparente às divs dos projetos */
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.mascara-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    z-index: -1;
+}
+#meuVideo {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 2s ease; /* Adiciona uma transição suave de 0.5 segundos */
+}
+
+.visible {
+    display: flex;
+    opacity: 1;
+    transition: opacity 2s ease; /* Adiciona uma transição suave de 0.5 segundos */
+   
+}
+
+footer {
+        display: flex;
+        text-align: center;
+        margin-top: 600px;        
+        color: #B0C4DE;
+        flex-direction: column;
+        justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: #B0C4DE;
+    font-size: 18px;
+}
+
+h4,h5 {
+    margin: 2px 0px 9px;
+    font-size: 18px;
+}
+
+h5 :hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgb(80, 121, 242) 0%, rgb(73, 194, 242) 100%);
+    border-radius: 0.1rem;
+    
+}
+
+.projeto img {
+
+    border-radius: 10px;
+}
+
+#tap1   {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(13, 14, 13);
+    color:  rgb(116, 184, 247);
+    font-size: 2vw;
+    display: flex;
+    margin-left: 700px; 
+    
+   
+}
+
+@media (max-width: 768px) {
+    #tap1 {
+        font-size: 6vw; /* Ajustando o tamanho da fonte para telas menores */
+    }
+}
+
+#agradecimentos {
+                max-width: 40px;
+                display: flex;
+                align-items: center;
+                margin-left: 750px;
+                font-size: 15px;
+}
+
+img.ft1 {
+            display: inline;
+            max-width: 120px;
+           
+}
+
+img.ft2 {
+    display: inline;
+    max-width: 120px;
+    
+}
+
+img.ft3 {
+    display: inline;
+    max-width: 120px;
+  
+}
+
+img#minhafoto {
+    margin: 20px 400px;
+    display: block;
+    max-width: 1000px;
+    height: auto;
+    
+}
+
+#tap2   {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(13, 14, 13);
+    color:  rgb(116, 184, 247);
+    font-size: 2vw;
+    display: flex;
+    margin-left: 450px; 
+    margin-bottom: 20px;
+    padding: 5px;
+    
+   
+}
+
