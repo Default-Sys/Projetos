@@ -1,0 +1,15 @@
+{
+  "name": "instagram-server",
+  "version": "1.0.0",
+  "description": "Servidor backend Instagram clone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  }
+}
